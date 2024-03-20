@@ -1,0 +1,59 @@
+body {
+    background: url("./warback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-clash {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px;
+    background-color: rgba(235, 224, 224, 0.7);
+}
+
+.type-table {
+    margin: 30px;
+}
+
+
+.title {
+    font-family: 'Eczar', serif;
+    font-size: 45px;
+    color:black;
+    background-color: rgba(236, 226, 226, 0.7);
+    text-align: center;
+    margin: 20px 5px;
+    
+}
+
+#us{
+    color: red;
+}
+
+#rus{
+    color: blue;
+}
+.versus {
+    font-family: 'Madimi', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(244, 241, 241, 0.7);
+    color: wheat;
+    margin: 20px 5px;
+}
+
+td > img {
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+    border-radius: 20px;
+}
+
+td > img:hover {
+    opacity: 0.7;
+    width: 205px;
+    height: 205px;
+}
+
